@@ -17,8 +17,9 @@ body {
     grid-template-rows: auto;
     gap: 10px;
     grid-template-areas: 
-        "photo photo photo" 
-        "one two three";
+        "photo photo" 
+        "one  three"
+        "footer footer";
 }   
 
 .photo {
@@ -30,14 +31,17 @@ body {
     grid-area: one;
 }
 
-.two {
-    grid-area: two;
-}
-
 .three {
     grid-area: three;
     text-align: right;
 }
+
+.footer {
+    text-align: center;
+    grid-area: footer;
+    margin-bottom: 0px;
+}
+
 
 a {
     color: #b6b6b6
